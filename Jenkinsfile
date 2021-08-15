@@ -28,7 +28,7 @@ node {
     }
     stage('mvn pakcege') {
         // Run the maven build
-        sh 'mvn pakcege'
+        sh 'mvn package'
     }
 	  stage('mvn deploy') {
         // Run the maven build
